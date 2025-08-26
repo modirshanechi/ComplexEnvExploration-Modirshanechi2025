@@ -1,0 +1,3 @@
+# Posterior Predictive Checks (PPC)
+
+To perform PPC, you should first run the notebook `figures/Figure5_plus2DF.ipynb` up to section "Simulating the models" to simulate all models with their fitted parameters and save the results. Then, you can run the script `PPC_Simulation_plot.jl` to extract all the data statistics of different models; these will be saved in `src/02_PPCSimulation/Figures/PPCStats.CSV` which can be used to run the remaining sections of the notebook `figures/Figure5_plus2DF.ipynb`.
