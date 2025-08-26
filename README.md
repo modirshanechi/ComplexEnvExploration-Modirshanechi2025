@@ -25,11 +25,11 @@ All Julia packages and dependencies will be installed automatically within this 
 
 ### Demo
 
-`IMRLExploration/HowTo.ipynb` presents a demo for reading and working with the data along with a general overview of computational models.
+`IMRLExploration/HowTo.ipynb` presents a demo for reading and working with the data, along with a general overview of computational models.
 
 ### Data 
 
-Behavioral choices participant number `i` (with `i` between 1 and 63) are saved in `IMRLExploration/data/BehaveData_Si.mat`.
+The behavioral choices of participant number `i` (with `i` between 1 and 63) are saved in `IMRLExploration/data/BehaveData_Si.mat`.
 Graph reconstruction data of all participants is saved in `IMRLExploration/data/graphs.csv`.
 The data structure is explained in `IMRLExploration/HowTo.ipynb` along with a demonstration of how to read and work with the data.
 
