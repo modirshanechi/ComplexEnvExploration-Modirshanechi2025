@@ -2,7 +2,7 @@
 
 This repository contains the code and data for the results reported in the article:
 
-A. Modirshanechi, W H. Lin, A. Xu, M.H. Herzog, and W. Gerstner, "Novelty as a drive of human exploration in complex stochastic environments", to appear in PNAS (2025); [preprint available on bioRxiv](https://www.biorxiv.org/content/10.1101/2022.07.05.498835v3.abstract).
+A. Modirshanechi, W.H. Lin, H.A. Xu, M.H. Herzog, and W. Gerstner, "Novelty as a drive of human exploration in complex stochastic environments", to appear in PNAS (2025); [preprint available on bioRxiv](https://www.biorxiv.org/content/10.1101/2022.07.05.498835v3.abstract).
 
 Contact: [alireza.modirshanechi@helmholtz-munich.de](alireza.modirshanechi@helmholtz-munich.de)
 
@@ -33,7 +33,7 @@ The behavioral choices of participant number `i` (with `i` between 1 and 63) are
 Graph reconstruction data of all participants is saved in `IMRLExploration/data/graphs.csv`.
 The data structure is explained in `IMRLExploration/HowTo.ipynb` along with a demonstration of how to read and work with the data.
 
-*If you would like to only use the data without using our code, you can find a minimal version of the raw data saved in `data/tidydata.CSV` (with the same notation as in the paper)*
+*If you would like to only use the data without using our code, you can find a tidy version of the raw data saved in `data/tidydata.CSV` (with the same notation as in the paper).*
 
 ### Figures
 
@@ -42,5 +42,5 @@ The folder `IMRLExploration/figures/` contains a series of `ipynb` notebooks for
 
 ## Source files
 
-* All analyses are based on the functions and structs that are written in the files in the root of `IMRLExploration/src/`
-* Subfolders contain files for model-fitting (`IMRLExploration/src/01_ModelFitting`), Posterior Predictive Checks (`IMRLExploration/src/02_PPCSimulation`; also see `IMRLExploration/figures/Figure5_plus2DF.ipynb`), and model-recovery (`IMRLExploration/src/03_ModelRecovery`).
+* All analyses are based on the functions and structures that are defined in the `jl` files in `IMRLExploration/src/`
+* The subfolders in `IMRLExploration/src/` contain files for model-fitting (`IMRLExploration/src/01_ModelFitting`), Posterior Predictive Checks (`IMRLExploration/src/02_PPCSimulation`; also see `IMRLExploration/figures/Figure5_plus2DF.ipynb`), and model-recovery (`IMRLExploration/src/03_ModelRecovery`). Each subfolder contains a `README` file.
