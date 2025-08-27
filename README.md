@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1045034016.svg)](https://doi.org/10.5281/zenodo.16962407)
+
 # ComplexEnvExploration-Modirshanechi2025
 
 This repository contains the code and data for the results reported in the article:
