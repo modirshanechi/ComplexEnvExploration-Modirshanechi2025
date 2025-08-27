@@ -14,6 +14,7 @@ for d = Data
     df.trial = Int.(vcat([1:length(d.states[i]) for i = eachindex(d.states)]...))
     df.state = image2paperstate.(Func_Image_Arr2Vec(hcat(d.images...)))
     df.action = Int.(vcat(d.actions...) .+ 1)
+    df.rt = vcat(d.resp_time...)
     push!(Datadfs,df)
 end
 
