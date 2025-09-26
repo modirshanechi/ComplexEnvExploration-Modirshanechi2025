@@ -4,7 +4,7 @@
 
 This repository contains the code and data for the results reported in the article:
 
-A. Modirshanechi, W.H. Lin, H.A. Xu, M.H. Herzog, and W. Gerstner, "Novelty as a drive of human exploration in complex stochastic environments", to appear in PNAS (2025); [preprint available on bioRxiv](https://www.biorxiv.org/content/10.1101/2022.07.05.498835v3.abstract).
+A. Modirshanechi, W.H. Lin, H.A. Xu, M.H. Herzog, and W. Gerstner, "[Novelty as a drive of human exploration in complex stochastic environments](https://doi.org/10.1073/pnas.2502193122)", in PNAS (2025).
 
 Contact: [alireza.modirshanechi@helmholtz-munich.de](alireza.modirshanechi@helmholtz-munich.de)
 
